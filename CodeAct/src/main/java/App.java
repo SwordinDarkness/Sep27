@@ -16,7 +16,7 @@ public class App {
         a = a - b;
         System.out.println("After A is: " + a + " B is: " + b);
     }
-
+//Problem 5 using for loops
     public static int arrange(int N, int K, int[] k) {
         int[][] C = new int[N + 1][N + 1];
         int i, j;
@@ -46,7 +46,7 @@ public class App {
 
         return dp[K];
     }
-
+//Problem 5 using recursion
     public static int color(int k1, int k2) {
         if(k1 <0 || k2 <0)
         {
